@@ -9,6 +9,8 @@ import Macquarie24 from "../components/Speakers/Macquarie24";
 import Atlassian24 from "../components/Speakers/Atlassian24";
 import Placeholder from "../components/Speakers/Placeholder";
 import Apple24 from "../components/Speakers/Apple24";
+import Google from "../components/Speakers/Google24";
+import TikTok from "../components/Speakers/TikTok24";
 
 export const siteData: {
   [k: string]: {
@@ -69,6 +71,18 @@ export const siteData: {
       text: <Apple24 />,
       video: null,
       image: "./images/2024/nelson.jpg",
+    },
+    "Richard Hofman": {
+      speakerName: "Google",
+      text: <Google />,
+      video: null,
+      image: "./images/2024/richard.png",
+    },
+    "James Ji": {
+      speakerName: "TikTok",
+      text: <TikTok />,
+      video: null,
+      image: "./images/2024/james.jpeg",
     },
     "More speakers": {
       speakerName: "To be announced",
