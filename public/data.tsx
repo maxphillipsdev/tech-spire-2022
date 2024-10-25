@@ -11,6 +11,7 @@ import Placeholder from "../components/Speakers/Placeholder";
 import Apple24 from "../components/Speakers/Apple24";
 import Google from "../components/Speakers/Google24";
 import TikTok from "../components/Speakers/TikTok24";
+import UNSWSeb from "../components/Speakers/UNSWSeb24";
 
 export const siteData: {
   [k: string]: {
@@ -83,6 +84,12 @@ export const siteData: {
       text: <TikTok />,
       video: null,
       image: "./images/2024/james.jpeg",
+    },
+    "Sebastian Sequoiah-Grayson": {
+      speakerName: "UNSW",
+      text: <UNSWSeb />,
+      video: null,
+      image: "./images/2024/sebastian.jpg",
     },
     "More speakers": {
       speakerName: "To be announced",
