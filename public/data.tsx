@@ -85,7 +85,7 @@ export const siteData: {
       video: null,
       image: "./images/2024/james.jpeg",
     },
-    "Sebastian Sequoiah-Grayson": {
+    "Sebastian Grayson": {
       speakerName: "UNSW",
       text: <UNSWSeb />,
       video: null,
